@@ -27,23 +27,7 @@ public class MarkDown {
 		        .build();
 		
 	
-		Node document = parser.parse("# Blockly [![Build Status]( https://travis-ci.org/google/blockly.svg?branch=master)](https://travis-ci.org/google/blockly)\n" + 
-				"\n" + 
-				"\n" + 
-				"Google's Blockly is a web-based, visual programming editor.  Users can drag\n" + 
-				"blocks together to build programs.  All code is free and open source.\n" + 
-				"\n" + 
-				"**The project page is https://developers.google.com/blockly/**\n" + 
-				"\n" + 
-				"![](https://developers.google.com/blockly/images/sample.png)\n" + 
-				"\n" + 
-				"Blockly has an active [developer forum](https://groups.google.com/forum/#!forum/blockly). Please drop by and say hello. Show us your prototypes early; collectively we have a lot of experience and can offer hints which will save you time.\n" + 
-				"\n" + 
-				"Help us focus our development efforts by telling us [what you are doing with\n" + 
-				"Blockly](https://developers.google.com/blockly/registration). The questionnaire only takes\n" + 
-				"a few minutes and will help us better support the Blockly community.\n" + 
-				"\n" + 
-				"Want to contribute? Great! First, read [our guidelines for contributors](https://developers.google.com/blockly/guides/modify/contributing).");
+		Node document = parser.parse("");
 
 		String html = renderer.render(document); // "<p>This is <em>Sparta</em></p>\n"
 		//System.out.println(html);
